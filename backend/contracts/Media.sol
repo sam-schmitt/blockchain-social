@@ -18,6 +18,7 @@ contract Media {
     }
 
     mapping (address => User) users;
+    
     Post[] posts;
 
     function signUp(string memory _username) public {
